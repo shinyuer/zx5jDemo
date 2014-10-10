@@ -1,0 +1,171 @@
+@media (min-width:992px)
+{
+}
+@media  (max-width:992px)
+{
+.color_pink {
+	margin-right: 0px;
+	display:none;
+}
+#headertopwrap ul li {
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+
+
+#logowrap .div_text_top {
+		font-size: 0.7em;
+}
+
+#logowrap ul li {
+	height: 1.2em;
+	width:1.2em;
+	line-height: 1.2em;
+}
+
+#logowrap .div_lg_center {
+	padding-left:25px;
+	padding-top:10px;
+}
+#logowrap dl
+{
+	text-align:center;
+	margin-top: 0px;
+}
+#logowrap dl dd {
+		margin: 2px;
+}
+#main .input_Lspace40 {
+	margin-left: 4px;
+}
+#content h2,#sectuan .div_searchplace   {
+	font-size: 1em;
+}
+#content h2 span {
+	font-size: 0.8em;
+}
+#sectuan header input {
+	width: 100px;
+	margin-right: 6px;
+	margin-left: 6px;
+}
+#sectuan .div_formgroup .div_listboxplace {
+	left:6px;
+}
+#sectuan .div_formgroup .div_listboxplace select{
+	width: 100px;
+	font-size: 0.8em;
+}
+
+#sectuan header .div_pager span {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+}
+
+@media (max-width:768px) 
+{
+.color_pink {
+	display:inline-block;
+}
+#headertopwrap .row > div {
+	/*text-align:center;*/
+}
+#logowrap .div_lg_center {
+	padding-left:0px;
+}
+#headertopwrap .navmenu{
+	display: none;
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	width: 150px;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 100;
+	overflow: hidden;
+	padding: 3px;
+	background-color: rgb(0,0,0)\9;
+}
+#headertopwrap .navmenu li{
+	width: 99%;
+	line-height: 1.5em;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #333333;
+}
+#headertopwrap .navmenu li a{
+	color: #FFFFFF
+}
+
+#headertopwrap .open .navmenu{
+	display: block;
+}
+
+#headertopwrap ul {
+float:none !important;
+}
+
+#logowrap dl {
+	display: inline-block;
+	margin-top: 15px;
+}
+#main  .checkbox {
+	margin-left: 40px;
+	margin-top: 0;
+}
+#main aside {
+	max-width:none;
+}
+#content h2,#sectuan .div_searchplace   {
+	font-size: 0.9em;
+}
+#content h2 span {
+	font-size: 0.7em;
+}
+#sectuan header input {
+	width: 80px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+#sectuan .div_formgroup .div_listboxplace {
+	left:1px;
+}
+#sectuan .div_formgroup .div_listboxplace select{
+	width:80px;
+	font-size: 0.8em;
+}
+
+#sectuan header .div_pager span {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#sectuan .ul_tuan li  a
+{
+	font-size:0.8em;
+}
+
+#footer span {
+	font-size:0.7em;
+}
+.div_topbtnR
+{
+	margin: 0;	
+	padding:0;
+}
+}
+@media (max-width:420px) 
+{
+#headertopwrap .a_headertop2 {
+	display:inline-block;
+}
+#headertopwrap .a_headertop1 {
+	display:none;
+}
+#logowrap ul li {
+	width:0.8em;
+}
+#logowrap .div_text_top {
+	line-height:1.1em;
+	}
+}
